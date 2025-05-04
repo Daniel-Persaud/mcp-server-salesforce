@@ -43,7 +43,7 @@ You can authenticate with Salesforce using one of two methods:
 
 1. Install the package globally:
 ```bash
-npm install -g @surajadsul02/mcp-server-salesforce
+npm install -g @danielpersaud17/mcp-server-salesforce
 ```
 
 2. Configure the MCP server in Cursor IDE `.cursor/mcp.json`:
@@ -61,7 +61,7 @@ npm install -g @surajadsul02/mcp-server-salesforce
         "SALESFORCE_INSTANCE_URL=https://login.salesforce.com",
         "npx",
         "-y",
-        "@surajadsul02/mcp-server-salesforce"
+        "@danielpersaud17/mcp-server-salesforce"
       ]
     }
   }
@@ -83,7 +83,7 @@ npm install -g @surajadsul02/mcp-server-salesforce
         "SALESFORCE_CONSUMER_SECRET=YourConsumerSecret",
         "npx",
         "-y",
-        "@surajadsul02/mcp-server-salesforce"
+        "@danielpersaud17/mcp-server-salesforce"
       ]
     }
   }
@@ -94,7 +94,7 @@ npm install -g @surajadsul02/mcp-server-salesforce
 
 1. Install the package globally (if not already installed):
 ```bash
-npm install -g @surajadsul02/mcp-server-salesforce
+npm install -g @danielpersaud17/mcp-server-salesforce
 ```
 
 2. Add to your `claude_desktop_config.json`:
@@ -105,7 +105,7 @@ npm install -g @surajadsul02/mcp-server-salesforce
   "mcpServers": {
     "salesforce": {
       "command": "npx",
-      "args": ["-y", "@surajadsul02/mcp-server-salesforce"],
+      "args": ["-y", "@danielpersaud17/mcp-server-salesforce"],
       "env": {
         "SALESFORCE_USERNAME": "your_username",
         "SALESFORCE_PASSWORD": "your_password",
@@ -123,7 +123,7 @@ npm install -g @surajadsul02/mcp-server-salesforce
   "mcpServers": {
     "salesforce": {
       "command": "npx",
-      "args": ["-y", "@surajadsul02/mcp-server-salesforce"],
+      "args": ["-y", "@danielpersaud17/mcp-server-salesforce"],
       "env": {
         "SALESFORCE_USERNAME": "your_username",
         "SALESFORCE_PASSWORD": "your_password",
