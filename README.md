@@ -19,7 +19,7 @@ An MCP (Model Context Protocol) server implementation that integrates Claude wit
 ## Installation
 
 ```bash
-npm install -g @surajadsul02/mcp-server-salesforce
+npm install -g @danielpersaud17/mcp-server-salesforce
 ```
 
 ## Setup
